@@ -2,7 +2,7 @@
 
 **Data Analyst → Analytics Engineer** based in Redlands, CA
 
-I build data products end-to-end — from production reporting pipelines to NL-to-SQL chat apps powered by LLMs. Former Principal Technical Product Manager who delivered enterprise platforms at Zelle, First American, ADP, and Kaseya before pivoting fully into data. Strong SQL across dialects — MySQL, PostgreSQL, SQL Server, and Databricks SQL.
+I build data products end-to-end — from production reporting pipelines to NL-to-SQL chat apps powered by LLMs. Former Principal Technical Product Manager who delivered enterprise platforms at Zelle, First American, ADP, and Kaseya before pivoting fully into data. Strong SQL across dialects — MySQL, PostgreSQL, SQL Server, and Databricks SQL — with enough depth to build a curriculum around it.
 
 ---
 
@@ -21,6 +21,32 @@ I build data products end-to-end — from production reporting pipelines to NL-t
 
 ---
 
+## 📚 SQL Training Curriculum
+
+### [Marketing Analytics SQL — Training Course](https://github.com/BigZeeke/marketing_analytics_MySQL)
+> 12 modules · 11 hours · every query tied to a real CMO business question
+
+Built a complete self-paced SQL training course on top of a production-grade 25-table marketing analytics database. Each module covers one digital marketing discipline, teaches the SQL techniques needed to analyze it, and connects every query to the kind of question a senior marketing leader asks in a real meeting.
+
+**[→ View the Curriculum](https://github.com/BigZeeke/marketing_analytics_MySQL)**
+
+Every module includes:
+- 🔧 **Engineering Lens** — EXPLAIN-driven thinking and data profiling before writing a query
+- 📊 **Marketing Nuggets** — business context explaining *why* each metric matters to a CMO
+- 🎯 **CMO Questions** — the actual executive question your SQL answers
+- 💡 **Tips & Tricks** — patterns, shortcuts, and gotchas
+- ✅ **Test Yourself** — graded exercises with full worked answers
+
+| Module | Topic | Key SQL Skills |
+|---|---|---|
+| 00B | Engineering Workflow | EXPLAIN, data profiling, index strategy |
+| 01 | SEO Analytics | LAG(), LEAD(), RANK(), NTILE(), multi-step CTEs |
+| 02 | PPC & Paid Ads | Running totals, composite indexes, EXPLAIN |
+| 03 | Email Marketing | Views, conditional aggregation, moving averages |
+| 04–10 | GTM · Content · Audiences · Attribution · A/B Testing · CRO | Stored procs · UDFs · Triggers · Funnel CTEs |
+
+---
+
 ## 🛠️ Tech Stack
 
 **Languages**
@@ -29,14 +55,17 @@ I build data products end-to-end — from production reporting pipelines to NL-t
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![DAX](https://img.shields.io/badge/DAX-F2C811?style=flat&logo=powerbi&logoColor=black)
 
+**Databases**
+
+![MySQL](https://img.shields.io/badge/MySQL_8.0-4479A1?style=flat&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+
 **Data Platforms**
 
 ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure_Data_Lake-0078D4?style=flat&logo=microsoftazure&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
 
 **BI & Visualization**
 
@@ -50,12 +79,12 @@ I build data products end-to-end — from production reporting pipelines to NL-t
 
 ---
 
-## 📂 What I'm Building
+## 📂 Projects
 
 | Project | Description | Stack |
 |---|---|---|
 | [Marketing Analytics Assistant](https://github.com/BigZeeke/marketing_analytics_assistant) | NL-to-SQL chat app · [Live demo](https://marketing-analytics-assistant.streamlit.app) | Streamlit · Claude · Databricks |
-| [Marketing Analytics — MySQL](https://github.com/BigZeeke/marketing_analytics_MySQL) | 25-table schema · stored procs · triggers · window functions · EXPLAIN analysis | MySQL 8.0 |
+| [Marketing Analytics SQL Training](https://github.com/BigZeeke/marketing_analytics_MySQL) | 12-module SQL curriculum · 25-table production schema · CMO question bank | MySQL 8.0 |
 | SQL Query Optimization Lab *(coming soon)* | Execution plan analysis, index strategy, normalization case studies | MySQL · PostgreSQL · Databricks SQL |
 | Medallion Architecture Build *(coming soon)* | Bronze/Silver/Gold data layers on Databricks | Databricks · dbt · Unity Catalog |
 | Marketing Data Marts *(coming soon)* | Reporting views, stored procs, materialized views | Databricks SQL · dbt |
@@ -64,9 +93,9 @@ I build data products end-to-end — from production reporting pipelines to NL-t
 
 ## 🔧 SQL Depth
 
-I write production SQL across multiple dialects and platforms:
+Advanced SQL across multiple dialects and platforms:
 
-- **MySQL 8.0** — window functions, stored procedures, triggers, scalar UDFs, EXPLAIN execution plans, covering indexes
+- **MySQL 8.0** — window functions, stored procedures, triggers, scalar UDFs, EXPLAIN execution plans, covering indexes, normalization
 - **PostgreSQL** — EXPLAIN ANALYZE, CTEs, lateral joins, generate_series date spines
 - **Databricks SQL** — Delta Lake, Unity Catalog, QUALIFY clause, Spark UI profiling
 - **SQL Server** — T-SQL, execution plans, query tuning
