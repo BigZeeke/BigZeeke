@@ -1,12 +1,25 @@
 # Hey, I'm Steve Lopez 👋
 
-**Data Analyst → Analytics Engineer** based in Redlands, CA
+**Analytics Engineer** based in Redlands, CA
 
 I build data products end-to-end — from production reporting pipelines to NL-to-SQL chat apps powered by LLMs. Former Principal Technical Product Manager who delivered enterprise platforms at Zelle, First American, ADP, and Kaseya before pivoting fully into data. Strong SQL across dialects — MySQL, PostgreSQL, SQL Server, and Databricks SQL — with enough depth to build a curriculum around it.
 
 ---
 
 ## 🚀 Live Portfolio
+
+### [Marketing Attribution Intelligence Platform](https://marketing-attribution.streamlit.app)
+> Full-lifecycle B2C subscription analytics — acquire, convert, retain, reactivate — across 14 tables and 105,895 rows of realistic marketing data.
+
+**[→ Try the Live Demo](https://marketing-attribution.streamlit.app)** &nbsp;|&nbsp; **[→ View the Code](https://github.com/BigZeeke/marketing-attribution)**
+
+- Simulates **GA4, Meta Ads, Google Ads, HubSpot, Klaviyo, Segment, and Mixpanel** in a single unified schema
+- **AI-powered channel recommendations** — Claude analyzes attribution patterns and surfaces optimization opportunities
+- **Intentional data quality issues** built into the dataset — designed to demonstrate audit and profiling skills
+- Multi-touch attribution modeling across the full customer lifecycle
+- Deployed to Streamlit Community Cloud with a 14-table SQLite schema
+
+---
 
 ### [Marketing Analytics Assistant](https://marketing-analytics-assistant.streamlit.app)
 > Ask questions about marketing data in plain English. Get SQL, results, and charts instantly.
@@ -83,6 +96,7 @@ Every module includes:
 
 | Project | Description | Stack |
 |---|---|---|
+| [Marketing Attribution Intelligence Platform](https://github.com/BigZeeke/marketing-attribution) | Full-lifecycle B2C attribution · AI recommendations · intentional DQ issues · [Live demo](https://marketing-attribution.streamlit.app) | Streamlit · Claude · SQLite |
 | [Marketing Analytics Assistant](https://github.com/BigZeeke/marketing_analytics_assistant) | NL-to-SQL chat app · [Live demo](https://marketing-analytics-assistant.streamlit.app) | Streamlit · Claude · Databricks |
 | [Marketing Analytics SQL Training](https://github.com/BigZeeke/marketing_analytics_MySQL) | 12-module SQL curriculum · 25-table production schema · CMO question bank | MySQL 8.0 |
 | SQL Query Optimization Lab *(coming soon)* | Execution plan analysis, index strategy, normalization case studies | MySQL · PostgreSQL · Databricks SQL |
