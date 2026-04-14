@@ -2,11 +2,25 @@
 
 **Analytics Engineer** based in Redlands, CA
 
-I build data products end-to-end — from production reporting pipelines to NL-to-SQL chat apps powered by LLMs. Former Principal Technical Product Manager who delivered enterprise platforms at Zelle, First American, ADP, and Kaseya before pivoting fully into data. Strong SQL across dialects — MySQL, PostgreSQL, SQL Server, and Databricks SQL — with enough depth to build a curriculum around it.
+I build data products end-to-end — from production reporting pipelines to generative BI platforms powered by LLMs. Former Principal Technical Product Manager who delivered enterprise platforms at Zelle, First American, ADP, and Kaseya before pivoting fully into data. Strong SQL across dialects — MySQL, PostgreSQL, SQL Server, and Databricks SQL — with enough depth to build a curriculum around it.
 
 ---
 
 ## 🚀 Live Portfolio
+
+### [CC GenBI — Contact Center Intelligence Platform](https://cc-genbi-poc.vercel.app)
+> Generative BI platform for global contact center analytics. Ask questions in plain English, get AI-interpreted results, and drill into 20+ KPIs across 16 sites and 4 regions.
+
+**[→ Try the Live Demo](https://cc-genbi-poc.vercel.app)** &nbsp;|&nbsp; **[→ View the Code](https://github.com/BigZeeke/cc-genbi-poc)**
+
+- **Natural language to SQL** — powered by Claude with a semantic layer and 10 few-shot examples for ~95% accuracy
+- **AI narrative layer** — benchmark-aware executive interpretation on every query result
+- **20+ contact center KPIs** — AHT, FCR, CSAT, NPS, CES, SLA, occupancy, sentiment, cost per contact, and more
+- **Star schema data mart** — 116K interactions across 16 global sites, 4 regions, 729 days
+- **Self-contained SQLite** — entire database runs in the browser via WebAssembly, zero infrastructure
+- Built on Next.js 14 + Vercel with a production SaaS dark-theme UI
+
+---
 
 ### [Marketing Attribution Intelligence Platform](https://marketing-attribution.streamlit.app)
 > Full-lifecycle B2C subscription analytics — acquire, convert, retain, reactivate — across 14 tables and 105,895 rows of realistic marketing data.
@@ -66,6 +80,7 @@ Every module includes:
 
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![DAX](https://img.shields.io/badge/DAX-F2C811?style=flat&logo=powerbi&logoColor=black)
 
 **Databases**
@@ -73,6 +88,7 @@ Every module includes:
 ![MySQL](https://img.shields.io/badge/MySQL_8.0-4479A1?style=flat&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
 
 **Data Platforms**
 
@@ -85,6 +101,12 @@ Every module includes:
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+![Recharts](https://img.shields.io/badge/Recharts-22b5bf?style=flat&logoColor=white)
+
+**Frameworks & Deployment**
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
 
 **AI & LLMs**
 
@@ -96,6 +118,7 @@ Every module includes:
 
 | Project | Description | Stack |
 |---|---|---|
+| [CC GenBI](https://github.com/BigZeeke/cc-genbi-poc) | Generative BI · 20+ contact center KPIs · NL-to-SQL · AI narrative · [Live demo](https://cc-genbi-poc.vercel.app) | Next.js · Claude · SQLite · Vercel |
 | [Marketing Attribution Intelligence Platform](https://github.com/BigZeeke/marketing-attribution) | Full-lifecycle B2C attribution · AI recommendations · intentional DQ issues · [Live demo](https://marketing-attribution.streamlit.app) | Streamlit · Claude · SQLite |
 | [Marketing Analytics Assistant](https://github.com/BigZeeke/marketing_analytics_assistant) | NL-to-SQL chat app · [Live demo](https://marketing-analytics-assistant.streamlit.app) | Streamlit · Claude · Databricks |
 | [Marketing Analytics SQL Training](https://github.com/BigZeeke/marketing_analytics_MySQL) | 12-module SQL curriculum · 25-table production schema · CMO question bank | MySQL 8.0 |
