@@ -140,6 +140,21 @@ Advanced SQL across multiple dialects and platforms:
 
 ---
 
+## 🎓 Certifications & Training
+
+| Program | Hours | Timeline |
+|---|---|---|
+| SQL Server DBA & MSBI → Microsoft Fabric Migration Bootcamp | ~200–240 hrs | 2025–2026 |
+| Data-Focused SDET Bootcamp — Rahul Shetty Academy | ~150–180 hrs | 2025–2026 |
+
+**SQL Server DBA & MSBI → Fabric Migration Bootcamp**
+Full legacy-to-modern SQL Server consulting track in two acts: T-SQL · SQL Server Admin · Performance Tuning · High Availability · SSRS · SSIS · SSAS → Azure SQL · Azure Data Factory · Power BI / PL-300 · Microsoft Fabric. Outcome: certified ability to assess a legacy SQL Server estate, validate migration parity, and own the full modernization engagement end to end.
+
+**Data-Focused SDET Bootcamp**
+Automated data pipeline testing: pytest · Behave BDD · TDD · Python (SQLAlchemy · pandas) · Postman · Newman · Git · Docker · Jenkins CI/CD. Outcome: write, run, and own data validation test suites — closing the loop between PM-defined quality requirements and engineering-delivered test coverage.
+
+---
+
 ## 📈 Currently Pursuing
 
 - **Azure Data Engineer Associate** certification
